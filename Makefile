@@ -17,6 +17,7 @@ GREP_IN = grep_lines/main.c
 GREP_OUT = bin/grep
 
 default:
+	mkdir bin
 	$(CC) $(TOUPPER_IN) -o $(TOUPPER_OUT) $(CFLAGS)
 	$(CC) $(TOLOWER_IN) -o $(TOLOWER_OUT) $(CFLAGS)
 	$(CC) $(FILTER_IN) -o $(FILTER_OUT) $(CFLAGS)
