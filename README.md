@@ -7,7 +7,7 @@ To grep lines from input file containing "xam" -> reverse input -> to upper case
 ```
 Console
 $ make
-$ ./bin/grep *xam* < input_file | ./bin/reverse | ./bin/toUpper
+$ ./bin/grep xam < input_file | ./bin/reverse | ./bin/toUpper
 ELPMAXE RETLIF-DNA-EPIP A SI SIHT
 SELPMAXE EHT FO EDOC EHT SNIATNOC OPER SIHT
 ```
